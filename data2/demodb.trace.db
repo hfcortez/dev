@@ -1,0 +1,9 @@
+2025-08-08 13:08:46.048275-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* From users"; expected "identifier"; SQL statement:
+delete * From users [42001-232]
+2025-08-08 13:09:23.584367-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete[*][*] * From users"; expected "identifier"; SQL statement:
+delete[*] * From users [42001-232]
+2025-08-08 13:09:25.678545-04:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete[*][*] * From users"; expected "identifier"; SQL statement:
+delete[*] * From users [42001-232]
